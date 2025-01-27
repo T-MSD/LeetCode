@@ -3,7 +3,7 @@ class Solution:
     window = 1
     length = len(s)
     index = 0
-    while index < length - window:
+    while index < length - window + 1:
       grow = True
       word = ""
       # Check for repeated chars
